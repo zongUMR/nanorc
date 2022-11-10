@@ -6,7 +6,7 @@ header "<\?xml.*version=.*\?>"
 magic "(XML|SGML) (sub)?document"
 comment "<!--|-->"
 
-color white "^.+$"
+color black "^.+$"
 color green  start="<" end=">"
 color cyan   "<[^> ]+"
 color cyan   ">"
